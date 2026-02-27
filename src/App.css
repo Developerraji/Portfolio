@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #0b1120;   
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+section {
+  padding: 50px;
+  text-align: center;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.project-card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,105 @@
+.education {
+  padding: 100px 10%;
+  background: linear-gradient(to right, #0f172a, #1e293b);
+  color: white;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 32px;
+  margin-bottom: 50px;
+  color: #14b8a6;
+}
+
+.education-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  position: relative;
+  max-width: 800px;
+  margin: auto;
+}
+
+.education-container::before {
+  content: "";
+  position: absolute;
+  left: 20px;
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background: #14b8a6;
+}
+
+.education-card {
+  background: #1e293b;
+  padding: 25px 30px 25px 50px;
+  border-radius: 12px;
+  text-align: left;
+  position: relative;
+  transition: 0.4s ease;
+  animation: fadeUp 1s ease forwards;
+  opacity: 0;
+}
+
+.education-card::before {
+  content: "";
+  position: absolute;
+  left: 11px;
+  top: 30px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #14b8a6;
+  border: 3px solid #0f172a;
+}
+
+.education-card:hover {
+  transform: translateX(10px);
+  box-shadow: 0 10px 30px rgba(20, 184, 166, 0.3);
+}
+
+.education-card h3 {
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+.edu-institution {
+  font-weight: 500;
+  color: #cbd5e1;
+}
+
+.edu-year,
+.edu-score {
+  font-size: 14px;
+  color: #94a3b8;
+  margin-top: 5px;
+}
+
+@keyframes fadeUp {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .education {
+    padding: 80px 6%;
+  }
+
+  .education-container::before {
+    left: 10px;
+  }
+
+  .education-card {
+    padding: 20px 20px 20px 40px;
+  }
+
+  .education-card::before {
+    left: 2px;
+  }
+}

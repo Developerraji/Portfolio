@@ -1,0 +1,119 @@
+/* ===== CONTACT SECTION DARK THEME ===== */
+.contact-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh; /* full screen height */
+  background: #0b1120; /* solid dark background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+/* Form Container */
+.contact-form {
+  position: relative;
+  background: #1e293b; /* dark card */
+  padding: 50px 30px;
+  border-radius: 20px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 10px 40px rgba(20, 184, 166, 0.3);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  animation: fadeInUp 1s ease forwards;
+  opacity: 0;
+}
+
+/* Section Title */
+.section-title {
+  font-size: 36px;
+  color: #14b8a6;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+/* Input & Textarea */
+.contact-form input,
+.contact-form textarea {
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: #0b1120;
+  color: #f1f5f9;
+  transition: all 0.3s ease;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #94a3b8;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border: 2px solid #14b8a6;
+  box-shadow: 0 0 10px rgba(20, 184, 166, 0.3);
+}
+
+.contact-form textarea {
+  min-height: 150px;
+  resize: none;
+}
+
+/* Button */
+.contact-form button {
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: none;
+  background: #14b8a6;
+  color: #0b1120;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: #0d9488;
+  transform: scale(1.05);
+}
+
+/* Success Message */
+.success-msg {
+  color: #22c55e;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* ===== Animations ===== */
+@keyframes fadeInUp {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .contact-form {
+    padding: 30px 20px;
+  }
+
+  .section-title {
+    font-size: 28px;
+  }
+
+  .contact-form input,
+  .contact-form textarea,
+  .contact-form button {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,156 @@
+.home {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 90px 10;
+  background: linear-gradient(to right, #0f172a, #1e293b);
+  /*background: linear-gradient(135deg, #0f172a, #1e293b);*/
+  color: white;
+  gap: 40px;
+
+}
+
+.home-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.home-text h1 {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.home-text h1 span {
+  color: #14b8a6;
+}
+
+.home-text h2 {
+    flex: 1;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  color: #94a3b8;
+}
+
+.home-text p {
+  max-width: 500px;
+  margin-left: 50px;
+  line-height: 1.6;
+  color: #cbd5e1;
+}
+
+.social-icons {
+  margin-top: 30px;
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-left: 150px;
+}
+
+.social-icons a {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #1e293b;
+  color: #14b8a6;
+  font-size: 18px;
+  border: 2px solid #14b8a6;
+  transition: 0.3s ease;
+}
+
+.social-icons a:hover {
+  background: #14b8a6;
+  color: white;
+  transform: translateY(-6px);
+  box-shadow: 0 0 20px rgba(20, 184, 166, 0.8);
+}
+
+
+.home-buttons {
+  margin-top: 25px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-left: 100px;
+}
+
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s ease;
+  border: 2px solid #14b8a6;
+  color: #14b8a6;
+  display: inline-block;
+}
+
+.btn:hover {
+  background: #14b8a6;
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(20, 184, 166, 0.4);
+}
+
+
+.home-img {
+  flex: 1;
+  display:grid;
+  justify-content: center;
+  min-width: 300px;
+}
+
+.home-img img {
+  width: 300px;
+  max-width: 80%;
+  border-radius: 70%;
+  border: 5px solid #14b8a6;
+  transition: 0.5s ease;
+  transform: scale(1.05);
+  box-shadow: 0 0 40px rgba(20, 184, 166, 0.6);
+}
+
+
+@media (max-width: 992px) {
+  .home {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 60px 8%;
+  }
+
+  .home-text h1 {
+    font-size: 36px;
+  }
+
+  .home-text h2 {
+    font-size: 18px;
+  }
+
+  .home-buttons {
+    justify-content: center;
+  }
+
+  .home-img img {
+    width: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-text h1 {
+    font-size: 28px;
+  }
+
+  .home-text h2 {
+    font-size: 16px;
+  }
+
+  .btn {
+    padding: 10px 18px;
+    font-size: 14px;
+  }
+}
