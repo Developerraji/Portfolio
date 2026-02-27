@@ -1,8 +1,8 @@
 import React from "react";
 import "./Certificates.css";
 
-import pythonCert from "../assets/Certificate/python basic.jpeg";
-import mernCert from "../assets/certificate/python advance.jpeg";
+import pythonCert from "../assets/Certificate/python-basic.jpeg";
+import mernCert from "../assets/certificate/python-advance.jpeg";
 import reactCert from "../assets/certificate/guvi.jpeg";
 import jsCert from "../assets/certificate/acm.jpeg";
 import htmlCert from "../assets/certificate/anjana.jpeg";
