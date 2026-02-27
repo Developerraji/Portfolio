@@ -1,6 +1,6 @@
 import { FaLinkedin, FaGithub, FaEnvelope, FaFileDownload  } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si"; 
-import profile from "../assets/profile.jpg";
+import profile from "../assets/Profile.jpg";
 import "./Home.css";
 
 export default function Home() {
@@ -43,7 +43,7 @@ export default function Home() {
       </div>
 
       <div className="home-img">
-        <img src={profile} alt="Rajalakshmi" />
+        <img src={Profile} alt="Rajalakshmi" />
 
       </div>
     </section>
