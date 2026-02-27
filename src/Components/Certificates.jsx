@@ -2,11 +2,11 @@ import React from "react";
 import "./Certificates.css";
 
 import pythonCert from "../assets/Certificate/python-basic.jpeg";
-import mernCert from "../assets/certificate/python-advance.jpeg";
-import reactCert from "../assets/certificate/guvi.jpeg";
-import jsCert from "../assets/certificate/acm.jpeg";
-import htmlCert from "../assets/certificate/anjana.jpeg";
-import cssCert from "../assets/certificate/FC.jpeg";   
+import mernCert from "../assets/Certificate/python-advance.jpeg";
+import reactCert from "../assets/Certificate/guvi.jpeg";
+import jsCert from "../assets/Certificate/acm.jpeg";
+import htmlCert from "../assets/Certificate/anjana.jpeg";
+import cssCert from "../assets/Certificate/FC.jpeg";   
 
 const Certificates = () => {
   const certificates = [
