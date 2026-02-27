@@ -1,6 +1,6 @@
 import { FaLinkedin, FaGithub, FaEnvelope, FaFileDownload  } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si"; 
-import profile from "../assets/profile.JPG";
+import profile from "../assets/profile.jpg";
 import "./Home.css";
 
 export default function Home() {
