@@ -1,15 +1,18 @@
-import React from "react";
+import { useState } from "react";
 import "./Navbar.css";
 
 export default function Navbar() {
+  const [open, setOpen] = useState(false);
+
   return (
     <nav className="nav">
-      <a href="#home" className="logo">
-    RAJALAKSHMI
-  </a>
+      <div className="logo">RAJALAKSHMI</div>
 
+      <div className="menu-toggle" onClick={() => setOpen(!open)}>
+        ☰
+      </div>
 
-      <div className = "nav-links">
+      <div className={open ? "nav-links active" : "nav-links"}>
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#education">Education</a>
