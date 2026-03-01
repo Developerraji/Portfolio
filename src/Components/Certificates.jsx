@@ -21,14 +21,14 @@ const Certificates = () => {
       issuer: "Gold Heart Foundation"
     },
     {
-      title: "External Participation Certification",
+      title: "GUVI Learnathon Participation Certification",
       image: reactCert,
-      issuer: "AAA College of Engineering,Sivakasi"
+      issuer: "GUVI"
     },
     {
-      title: "GUVI Learnathon Participation Certification",
+      title: "External Participation Certification",
       image: jsCert,
-      issuer: "GUVI"
+      issuer:"Kalasalingam University,Krishnankovil"
     },
     {
       title: "Internship Certification",

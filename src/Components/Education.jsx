@@ -17,14 +17,14 @@ function Education() {
 
         <div className="education-card">
           <h3>Higher Secondary (12th)</h3>
-          <p className="edu-institution">Govt Aided Higher Secondary School</p>
-          <p className="edu-year">2020 - 2022</p>
+          <p className="edu-institution">Govt Aided Higher Secondary School,Thalavaipuram</p>
+          <p className="edu-year">2021 - 2022</p>
           <p className="edu-score">Percentage: 82%</p>
         </div>
 
         <div className="education-card">
           <h3>SSLC (10th)</h3>
-          <p className="edu-institution">Govt Aided Higher Secondary School</p>
+          <p className="edu-institution">Govt Aided Higher Secondary School,Thalavaipuram</p>
           <p className="edu-year">2019 - 2020</p>
           <p className="edu-score">Percentage: 76%</p>
         </div>
